@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Darth Vader",
+      "price": "50",
+      "image": "https://i.blogs.es/c67753/pine-watt-3_xwxya43he-unsplash/1366_2000.webp",
+      "id": 1
+    },
+    {
+      "name": "Ejemplo 1",
+      "price": "77",
+      "image": "https://i.blogs.es/c67753/pine-watt-3_xwxya43he-unsplash/1366_2000.webp",
+      "id": 2
+    },
+    {
+      "name": "Flash",
+      "price": "25",
+      "image": "https://graffica.ams3.digitaloceanspaces.com/2023/10/marina-vitale-t809JJ6r9KA-unsplash-copia-scaled.jpg",
+      "id": 3
+    },
+    {
+      "id": 1,
+      "name": "NeiRamirez",
+      "price": "3334",
+      "image": "https://graffica.ams3.digitaloceanspaces.com/2023/10/marina-vitale-t809JJ6r9KA-unsplash-copia-scaled.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Cahvo",
+      "price": "1000",
+      "image": "https://graffica.ams3.digitaloceanspaces.com/2023/10/marina-vitale-t809JJ6r9KA-unsplash-copia-scaled.jpg"
+    }
+  ]
+}

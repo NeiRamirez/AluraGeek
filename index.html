@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="./css/estilos-form.css">
+    <title>AluraGeek</title>
+    
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="encabezado">
+            <h1>AluraGeek</h1> 
+            <div class="header__search hide">
+                <input type="text" class="search__input" placeholder="¿Qué deseas Buscar?">
+                <a href="#" class="icon__search" data-search></a>
+            </div>       
+        </nav>
+       
+
+    </header>
+
+    <main class="main-container">
+        <section>
+            <h1>Mis productos</h1>
+            <div data-product class="products-container">                             
+
+            </div>
+            
+        </section>  
+        
+        <section class="productos">
+            <h1>Agregar producto</h1>
+            <form class="form-container" data-form>
+                <input type="text" class="campo__escrita" data-name placeholder="nombre...">
+                <input type="text" class="campo__escrita" data-price placeholder="precio...">
+                <input type="text" class="campo__escrita" data-image placeholder="Imagen...">
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar</button>
+                    
+                </div>
+            </form>
+        </section>
+
+    </main> 
+
+    <footer class="footer-container">
+        <h1>AluraGeek</h1>
+        <H2>DESAROLLADO POR NEI RAMIREZ GONZALEZ</H2>
+        <H3>ALURA LATAM 2024</H2>
+    </footer>
+    
+    <script src="js/controllers/main.js" type="module"></script>
+    <!-- <script src="./js/filtrarVideo.js" type="module"></script> -->
+</body>
+
+</html>
